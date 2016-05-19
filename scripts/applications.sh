@@ -20,7 +20,7 @@ install_dmg_app "$SUBLIME_TEXT_APP_URL" "Sublime Text" "$SUBLIME_TEXT_APP_NAME"
 install_zip_app "$SUBLIME_URL_HANDLER_APP_URL" "$SUBLIME_URL_HANDLER_APP_NAME"
 
 # Alfred
-install_zip_app "$ALFRED_APP_URL" "$ALFRED_APP_NAME"
+install_dmg_app "$ALFRED_APP_URL" "Alfred" "$ALFRED_APP_NAME"
 
 # TextExpander
 install_zip_app "$TEXTEXPANDER_APP_URL" "$TEXTEXPANDER_APP_NAME"
