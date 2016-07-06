@@ -22,6 +22,7 @@ Shell scripts for automated OS X machine setup.
 - [Additional Software](#additional-software)
   - [App Store](#app-store)
   - [Miscellaneous](#miscellaneous)
+  - [Newsyslog](#newsyslog)
   - [Post Install](#post-install)
 - [Versioning](#versioning)
 - [Code of Conduct](#code-of-conduct)
@@ -353,6 +354,57 @@ The following software is optional:
 - [Hardware IO Tools for Xcode](https://developer.apple.com/downloads) - Includes the Network Link Conditioner, etc.
 - [VMWare Fusion](http://www.vmware.com/products/fusion) (requires a registered account, download only)
 - [Logitech Harmony Remote](https://support.logitech.com/en_us/product/harmony-890-advanced-universal-remote)
+
+## Newsyslog
+
+Native to OS X, [newsyslog](https://www.freebsd.org/cgi/man.cgi?newsyslog.conf(5)) can be used to configure system-wide
+log rotation across multiple projects. It's a good recommendation to set this up so that disk space is carefully
+maintained. Here's how to configure it for your system, start by creating a configuration for your projects in the
+`/etc/newsyslog.d` directory. In my case, I use the following configurations:
+
+- `/etc/newsyslog.d/alchemists.conf`
+
+      # logfilename                                            [owner:group]    mode   count   size  when  flags
+      /Users/bkuhlmann/Dropbox/Development/Work/**/log/*.log                    644    2       5120  *     GJN
+- `/etc/newsyslog.d/homebrew.conf`
+
+      # logfilename                   [owner:group]    mode   count   size    when  flags
+      /usr/local/var/log/**/*.log                      644    2       5120    *     GJN
+
+These configurations ensure that logs are rotated every 5MB (5120KB). In order to test that these configurations are
+valid, run:
+
+    sudo newsyslog -nvv
+
+If you don't see any errors in the output, then your configuration settings are correct.
+
+The last thing to do is to add a launch configuration to ensure the log rotations happen at regularly scheduled
+intervals. To do this create the following file: `$HOME/Library/LaunchAgents/com.apple.newsyslog.plist`. It should have
+these contents:
+
+    <?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+    <plist version="1.0">
+    <dict>
+      <key>Label</key>
+      <string>com.apple.newsyslog</string>
+      <key>ProgramArguments</key>
+      <array>
+        <string>/usr/sbin/newsyslog</string>
+      </array>
+      <key>LowPriorityIO</key>
+      <true/>
+      <key>Nice</key>
+      <integer>1</integer>
+      <key>StartCalendarInterval</key>
+      <dict>
+        <key>Minute</key>
+        <integer>30</integer>
+      </dict>
+    </dict>
+    </plist>
+
+That's it. System-wide log rotation is setup for your projects.
 
 ## Post Install
 
