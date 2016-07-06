@@ -9,6 +9,12 @@ sudo bash -c "printf '/usr/local/bin/bash\n' >> /etc/shells"
 # Bash Completion
 chsh -s /usr/local/bin/bash
 
+# Homebrew
+(
+  cd /usr/local
+  git config --local core.hooksPath /dev/null
+)
+
 # Ruby
 printf "%s\n" "---" > "$HOME/.gemrc"
 printf "%s\n" "gem: --no-document" >> "$HOME/.gemrc"
