@@ -153,7 +153,7 @@ export CHROME_APP_NAME="Google Chrome.app"
 export CHROME_APP_URL="https://dl.google.com/chrome/mac/stable/GGRM/googlechrome.dmg"
 
 export FIREFOX_APP_NAME=Firefox.app
-export FIREFOX_APP_URL="https://download.mozilla.org/?product=firefox-46.0-SSL&os=osx&lang=en-US"
+export FIREFOX_APP_URL="https://download.mozilla.org/?product=firefox-49.0.1-SSL&os=osx&lang=en-US"
 
 export OPERA_APP_NAME=Opera.app
 export OPERA_APP_URL="http://www.opera.com/download/get/?id=39353&location=410&nothanks=yes&sub=marine"
