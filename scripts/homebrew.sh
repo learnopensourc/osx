@@ -80,6 +80,9 @@ brew install hr
 # Git
 brew install git
 
+# Diff So Fancy
+brew install diff-so-fancy
+
 # Mercurial
 brew install hg
 
