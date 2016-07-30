@@ -167,6 +167,9 @@ export OMNIGRAFFLE_APP_URL="http://downloads2.omnigroup.com/software/MacOSX/10.6
 export TRANSMIT_APP_NAME=Transmit.app
 export TRANSMIT_APP_URL="http://download.panic.com/transmit/Transmit%204.4.10.zip"
 
+export PAW_APP_NAME=Paw.app
+export PAW_APP_URL="https://paw.cloud/download"
+
 export ISTATS_APP_NAME="iStat Menus.app"
 export ISTATS_APP_URL="http://download.bjango.com/istatmenus"
 

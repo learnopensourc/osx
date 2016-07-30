@@ -46,6 +46,9 @@ install_dmg_app "$OMNIGRAFFLE_APP_URL" "OmniGrafflePro" "$OMNIGRAFFLE_APP_NAME"
 # Transmit
 install_zip_app "$TRANSMIT_APP_URL" "$TRANSMIT_APP_NAME"
 
+# Paw
+install_zip_app "$PAW_APP_URL" "$PAW_APP_NAME"
+
 # iStat Menus
 install_zip_app "$ISTATS_APP_URL" "$ISTATS_APP_NAME"
 
