@@ -227,6 +227,9 @@ export CARBON_COPY_CLONER_APP_URL="https://70dd08a0984b0022574d-8064f6cbda3d6f2a
 export QUICK_LOOK_PLAIN_TEXT_APP_NAME="QLStephen.qlgenerator"
 export QUICK_LOOK_PLAIN_TEXT_APP_URL="https://github.com/downloads/whomwah/qlstephen/QLStephen.qlgenerator.zip"
 
+export QUICK_LOOK_MARKDOWN_APP_NAME="QLMarkdown.qlgenerator"
+export QUICK_LOOK_MARKDOWN_APP_URL="https://github.com/toland/qlmarkdown/releases/download/v1.3.5/QLMarkdown.qlgenerator.zip"
+
 export KSDIFF_APP_NAME="ksdiff"
 export KSDIFF_APP_URL="https://updates.blackpixel.com/latest?app=ksdiff"
 
