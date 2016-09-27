@@ -147,7 +147,7 @@ export PATH_FINDER_APP_NAME="Path Finder.app"
 export PATH_FINDER_APP_URL="http://get.cocoatech.com/PF7.zip"
 
 export TOR_BROWSER_APP_NAME="TorBrowser.app"
-export TOR_BROWSER_APP_URL="https://www.torproject.org/dist/torbrowser/5.5.5/TorBrowser-5.5.5-osx64_en-US.dmg"
+export TOR_BROWSER_APP_URL="https://www.torproject.org/dist/torbrowser/6.0.5/TorBrowser-6.0.5-osx64_en-US.dmg"
 
 export CHROME_APP_NAME="Google Chrome.app"
 export CHROME_APP_URL="https://dl.google.com/chrome/mac/stable/GGRM/googlechrome.dmg"
