@@ -79,7 +79,7 @@ install_pkg() {
   local install_root=$(get_install_root "$2")
 
   printf "Installing: $install_root/$2...\n"
-  local package=$(sudo find "$1" -type f -name "*.pkg" -o -name "*.mpkg")
+  local package=$(sudo find "$1" -maxdepth 1 -type f -name "*.pkg" -o -name "*.mpkg")
   sudo installer -pkg "$package" -target /
 }
 export -f install_pkg
