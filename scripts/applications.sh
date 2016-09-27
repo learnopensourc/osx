@@ -114,3 +114,6 @@ install_zip_pkg "$KSDIFF_APP_URL" "$KSDIFF_APP_NAME"
 
 # HandBrake
 install_dmg_app "$HAND_BRAKE_APP_URL" "HandBrake-0.10.5-MacOSX.6_GUI_x86_64" "$HAND_BRAKE_APP_NAME"
+
+# Viscosity
+install_dmg_app "$VISCOSITY_APP_URL" "Viscosity" "$VISCOSITY_APP_NAME"

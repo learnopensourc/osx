@@ -235,3 +235,6 @@ export KSDIFF_APP_URL="https://updates.blackpixel.com/latest?app=ksdiff"
 
 export HAND_BRAKE_APP_NAME="HandBrake.app"
 export HAND_BRAKE_APP_URL="http://handbrake.fr/rotation.php?file=HandBrake-0.10.5-MacOSX.6_GUI_x86_64.dmg"
+
+export VISCOSITY_APP_NAME="Viscosity.app"
+export VISCOSITY_APP_URL="https://www.sparklabs.com/downloads/Viscosity.dmg"
