@@ -210,7 +210,7 @@ export SONOS_APP_NAME=Sonos.app
 export SONOS_APP_URL="http://www.sonos.com/redir/controller_software_mac"
 
 export APP_CLEANER_APP_NAME=AppCleaner.app
-export APP_CLEANER_APP_URL="https://freemacsoft.net/downloads/AppCleaner_3.3.zip"
+export APP_CLEANER_APP_URL="https://freemacsoft.net/downloads/AppCleaner_3.4.zip"
 
 export HAZEL_APP_NAME="Install Hazel.app"
 export HAZEL_APP_URL="http://www.noodlesoft.com/Products/Hazel/download"
