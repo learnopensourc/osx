@@ -2,7 +2,7 @@
 
 [![Patreon](https://img.shields.io/badge/patreon-donate-brightgreen.svg)](https://www.patreon.com/bkuhlmann)
 
-Shell scripts for automated OS X machine setup.
+Shell scripts for automated macOS machine setup.
 
 <!-- Tocer[start]: Auto-generated, don't remove. -->
 
@@ -192,8 +192,8 @@ Shell scripts for automated OS X machine setup.
 
 # Requirements
 
-0. [OS X](http://www.apple.com/osx)
-0. [OS X Software Updates](http://www.apple.com/osx)
+0. [macOS](https://www.apple.com/macos)
+0. [macOS Software Updates](https://www.apple.com/macos)
 0. [Xcode](https://developer.apple.com/xcode) (with accepted license agreement)
 0. [Command Line Tools for Xcode](https://developer.apple.com/xcode)
 0. [Java SE Development Kit](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
@@ -224,12 +224,14 @@ Shell scripts for automated OS X machine setup.
 
 ### Reinstall
 
-If you have already installed OS X but want to reinstall it, simply reboot the machine and hold down *COMMAND+R*.
-This will load the installer from the recovery partition and allow you to use Disk Utility, reinstall the system, etc.
+If you have already installed macOS but want to reinstall it, simply reboot the machine and hold
+down *COMMAND+R*. This will load the installer from the recovery partition and allow you to use Disk
+Utility, reinstall the system, etc.
 
 ## Cloning
 
-Open a terminal window and execute one of the following setup sequences depending on your version preference:
+Open a terminal window and execute one of the following setup sequences
+depending on your version preference:
 
 Current Version (stable):
 
@@ -244,8 +246,8 @@ Master Version (unstable):
 
 # Usage
 
-Edit any of the *.sh files in the `scripts` folder to your liking and then open a terminal window to execute the
-following command:
+Edit any of the *.sh files in the `scripts` folder to your liking and then open a terminal window to
+execute the following command:
 
     ./run.sh
 
@@ -269,45 +271,48 @@ Running the run.sh script will present the following options:
       w:  Clean work (temp) directory.
       q:  Quit/Exit.
 
-Choose option 'i' to run all install tasks or select a specific option to run a single task. Each task is designed to
-be re-run if necessary. This can also be handy for performing upgrades, re-running a missing/failed install, etc.
+Choose option 'i' to run all install tasks or select a specific option to run a single task. Each
+task is designed to be re-run if necessary. This can also be handy for performing upgrades, re-
+running a missing/failed install, etc.
 
-The options prompt can be skipped by passing the desired option directly to the run.sh script. For example, executing
-"./run.sh i" will execute the complete software install process.
+The options prompt can be skipped by passing the desired option directly to the run.sh script. For
+example, executing "./run.sh i" will execute the complete software install process.
 
-It is recommended that the machine be rebooted after all install tasks have completed. Feel free to delete the osx
-project directory afterwards...or keep it around for future upgrades.
+It is recommended that the machine be rebooted after all install tasks have completed. Feel free to
+delete the osx project directory afterwards...or keep it around for future upgrades.
 
 ## Customization
 
-While the default settings for this project are opinionated and tailored for my specific setup, you can easily fork
-this project and customize the settings to your specific environment. Start by editing the files located in the
-settings project:
+While the default settings for this project are opinionated and tailored for my specific setup, you
+can easily fork this project and customize the settings to your specific environment. Start by
+editing the files located in the settings project:
 
-- settings/settings.sh = Defines settings for machine name, applications, extensions, versions, paths, etc.
+- settings/settings.sh = Defines settings for machine name, applications, extensions, versions,
+  paths, etc.
 
-*TIP*: The installer determines which applications/extensions to install as defined by the settings.sh script.
-Applications defined with the "APP_NAME" suffix and extensions defined with the "EXTENSION_PATH" suffix inform
-the installer what to care about. Removing/commenting out these applications/extensions within the settings.sh file
-will cause the installer to skip these applications/extensions.
+*TIP*: The installer determines which applications/extensions to install as defined by the
+settings.sh script. Applications defined with the "APP_NAME" suffix and extensions defined with the
+"EXTENSION_PATH" suffix inform the installer what to care about. Removing/commenting out these
+applications/extensions within the settings.sh file will cause the installer to skip these
+applications/extensions.
 
 You can also modify the install scripts themselves by editing any of the following:
 
 - scripts/basic.sh = Applies basic system settings.
 - scripts/homebrew.sh = Installs Homebrew, command line, software.
-- scripts/applications.sh = Installs OS X, GUI-based, applications.
+- scripts/applications.sh = Installs macOS, GUI-based, applications.
 - scripts/extensions.sh = Installs application extensions.
 - scripts/defaults.sh = Applies system and application defaults.
 - scripts/setup.sh = Configures and launches (if necessary) installed software.
 
-All Bash functions, used by the scripts defined above, can be found in the `lib` folder of this project.
+All Bash functions, used by the scripts defined above, can be found in the `lib` folder of this
+project.
 
 # Additional Software
 
 ## App Store
 
-I also recommend installing the following software found via the
-[App Store](http://www.apple.com/macosx/whats-new/app-store.html):
+I also recommend installing the following software found via the [App Store](http://www.apple.com/macosx/whats-new/app-store.html):
 
 - [DaisyDisk](http://www.daisydiskapp.com)
 - [Keymo](http://manytricks.com/keymo)
@@ -350,16 +355,19 @@ I also recommend installing the following software found via the
 
 The following software is optional:
 
-- [Hardware IO Tools for Xcode](https://developer.apple.com/downloads) - Includes the Network Link Conditioner, etc.
-- [VMWare Fusion](http://www.vmware.com/products/fusion) (requires a registered account, download only)
+- [Hardware IO Tools for Xcode](https://developer.apple.com/downloads) - Includes the Network Link
+  Conditioner, etc.
+- [VMWare Fusion](http://www.vmware.com/products/fusion) (requires a registered account, download
+  only)
 - [Logitech Harmony Remote](https://support.logitech.com/en_us/product/harmony-890-advanced-universal-remote)
 
 ## Newsyslog
 
-Native to OS X, [newsyslog](https://www.freebsd.org/cgi/man.cgi?newsyslog.conf(5)) can be used to configure system-wide
-log rotation across multiple projects. It's a good recommendation to set this up so that disk space is carefully
-maintained. Here's how to configure it for your system, start by creating a configuration for your projects in the
-`/etc/newsyslog.d` directory. In my case, I use the following configurations:
+Native to macOS, [newsyslog](https://www.freebsd.org/cgi/man.cgi?newsyslog.conf(5)) can be used to
+configure system-wide log rotation across multiple projects. It's a good recommendation to set this
+up so that disk space is carefully maintained. Here's how to configure it for your system, start by
+creating a configuration for your projects in the `/etc/newsyslog.d` directory. In my case, I use
+the following configurations:
 
 - `/etc/newsyslog.d/alchemists.conf`
 
@@ -370,16 +378,16 @@ maintained. Here's how to configure it for your system, start by creating a conf
       # logfilename                   [owner:group]    mode   count   size    when  flags
       /usr/local/var/log/**/*.log                      644    2       5120    *     GJN
 
-These configurations ensure that logs are rotated every 5MB (5120KB). In order to test that these configurations are
-valid, run:
+These configurations ensure that logs are rotated every 5MB (5120KB). In order to test that these
+configurations are valid, run:
 
     sudo newsyslog -nvv
 
 If you don't see any errors in the output, then your configuration settings are correct.
 
-The last thing to do is to add a launch configuration to ensure the log rotations happen at regularly scheduled
-intervals. To do this create the following file: `$HOME/Library/LaunchAgents/com.apple.newsyslog.plist`. It should have
-these contents:
+The last thing to do is to add a launch configuration to ensure the log rotations happen at
+regularly scheduled intervals. To do this create the following file:
+`$HOME/Library/LaunchAgents/com.apple.newsyslog.plist`. It should have these contents:
 
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
@@ -407,8 +415,8 @@ That's it. System-wide log rotation is setup for your projects.
 
 ## Post Install
 
-The following are additional steps, not easily automated, that are worth completing after the install scripts have been
-executed:
+The following are additional steps, not easily automated, that are worth completing after the
+install scripts have been executed:
 
 - Configure System Preferences:
   - Security & Privacy:
@@ -423,7 +431,8 @@ executed:
       - Automatically allow signed software.
       - Enable stealth mode.
     - Privacy:
-      - Apps like Cheat Sheet, Dash, Dropbox, Trailer, etc. will need to be enabled for accessibility.
+      - Apps like Cheat Sheet, Dash, Dropbox, Trailer, etc. will need to be enabled for
+        accessibility.
   - Printers & Scanners:
     - Add printer/scanner.
   - iCloud:
@@ -446,8 +455,8 @@ Read [Semantic Versioning](http://semver.org) for details. Briefly, it means:
 
 # Code of Conduct
 
-Please note that this project is released with a [CODE OF CONDUCT](CODE_OF_CONDUCT.md). By participating in this project
-you agree to abide by its terms.
+Please note that this project is released with a [CODE OF CONDUCT](CODE_OF_CONDUCT.md). By
+participating in this project you agree to abide by its terms.
 
 # Contributions
 
