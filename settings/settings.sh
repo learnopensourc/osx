@@ -192,7 +192,7 @@ export PSEQUEL_APP_NAME=PSequel.app
 export PSEQUEL_APP_URL="http://www.psequel.com/download?version=latest"
 
 export CHEATSHEET_APP_NAME=CheatSheet.app
-export CHEATSHEET_APP_URL="http://mediaatelier.com/CheatSheet/CheatSheet_1.2.3.zip"
+export CHEATSHEET_APP_URL="https://www.cheatsheetapp.com/CheatSheet/download.php"
 
 export OPEN_OFFICE_APP_NAME=OpenOffice.app
 export OPEN_OFFICE_APP_URL="https://downloads.sourceforge.net/project/openofficeorg.mirror/4.1.2/binaries/en-US/Apache_OpenOffice_4.1.2_MacOS_x86-64_install_en-US.dmg"
