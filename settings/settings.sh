@@ -198,7 +198,7 @@ export OPEN_OFFICE_APP_NAME=OpenOffice.app
 export OPEN_OFFICE_APP_URL="https://downloads.sourceforge.net/project/openofficeorg.mirror/4.1.2/binaries/en-US/Apache_OpenOffice_4.1.2_MacOS_x86-64_install_en-US.dmg"
 
 export CLOAK_APP_NAME=Cloak.app
-export CLOAK_APP_URL="https://static.getcloak.com/downloads/osx/updates/Release/Cloak-2.0.16.dmg"
+export CLOAK_APP_URL="https://static.getcloak.com/downloads/osx/updates/Release/Cloak-2.1.0.dmg"
 
 export SURF_EASY_VPN_APP_NAME="SurfEasy VPN.app"
 export SURF_EASY_VPN_APP_URL="https://updates.surfeasy.com/downloads/se0201/SurfEasyVPN-Installer.dmg"
