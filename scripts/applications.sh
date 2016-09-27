@@ -117,3 +117,6 @@ install_dmg_app "$HAND_BRAKE_APP_URL" "HandBrake-0.10.5-MacOSX.6_GUI_x86_64" "$H
 
 # Viscosity
 install_dmg_app "$VISCOSITY_APP_URL" "Viscosity" "$VISCOSITY_APP_NAME"
+
+# Marp
+install_dmg_app "$MARP_APP_URL" "Marp" "$MARP_APP_NAME"

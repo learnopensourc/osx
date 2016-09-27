@@ -238,3 +238,6 @@ export HAND_BRAKE_APP_URL="http://handbrake.fr/rotation.php?file=HandBrake-0.10.
 
 export VISCOSITY_APP_NAME="Viscosity.app"
 export VISCOSITY_APP_URL="https://www.sparklabs.com/downloads/Viscosity.dmg"
+
+export MARP_APP_NAME="Marp.app"
+export MARP_APP_URL="https://github.com/yhatt/marp/releases/download/v0.0.8/0.0.8-Marp-darwin-x64.dmg"
