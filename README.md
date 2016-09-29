@@ -36,6 +36,9 @@ Shell scripts for automated macOS machine setup.
 # Features
 
 - Provides a command line interface for installation and management of OSX software.
+- Downloads and installs development tooling (required by Homebrew):
+    - [Xcode Command Line Tools](https://developer.apple.com/xcode)
+    - [Java SE Development Kit](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 - Downloads, installs, and configures [Homebrew](http://brew.sh) command line software:
     - [Readline](http://tiswww.case.edu/php/chet/readline/rltop.html)
     - [OpenSSL](https://openssl.org)
@@ -99,7 +102,6 @@ Shell scripts for automated macOS machine setup.
     - [cloc](http://cloc.sourceforge.net)
     - [Terminal Notifier](https://github.com/alloy/terminal-notifier)
     - [Watchman](https://github.com/facebook/watchman)
-
 - Downloads, installs, and configures software applications generally not in the [App Store](http://www.apple.com/macosx/whats-new/app-store.html):
     - [Dropbox](https://www.dropbox.com)
     - [Knox](https://agilebits.com/knox)
