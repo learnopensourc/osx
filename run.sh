@@ -24,6 +24,7 @@ while true; do
     printf "\nOSX Options:\n"
     printf "  Setup:\n"
     printf "    b:  Apply basic system settings.\n"
+    printf "    t:  Install development tools.\n"
     printf "    h:  Install Homebrew software.\n"
     printf "    a:  Install application software.\n"
     printf "    x:  Install application extensions.\n"

@@ -11,6 +11,9 @@ process_option() {
     'b')
       scripts/basic.sh
       break;;
+    't')
+      scripts/tools.sh
+      break;;
     'h')
       scripts/homebrew.sh
       break;;
@@ -29,6 +32,7 @@ process_option() {
     'i')
       caffeinate_machine
       scripts/basic.sh
+      scripts/tools.sh
       scripts/homebrew.sh
       scripts/applications.sh
       scripts/extensions.sh
