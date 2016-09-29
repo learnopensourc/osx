@@ -195,8 +195,6 @@ Shell scripts for automated macOS machine setup.
 0. [macOS](https://www.apple.com/macos)
 0. [macOS Software Updates](https://www.apple.com/macos)
 0. [Xcode](https://developer.apple.com/xcode) (with accepted license agreement)
-0. [Command Line Tools for Xcode](https://developer.apple.com/xcode)
-0. [Java SE Development Kit](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
 # Setup
 
