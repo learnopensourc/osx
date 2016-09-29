@@ -12,11 +12,6 @@ Shell scripts for automated macOS machine setup.
 - [Screencast](#screencast)
 - [Requirements](#requirements)
 - [Setup](#setup)
-  - [OS X (El Capitan)](#os-x-el-capitan)
-    - [Bootdisk](#bootdisk)
-    - [Upgrade](#upgrade)
-    - [Reinstall](#reinstall)
-  - [Cloning](#cloning)
 - [Usage](#usage)
   - [Customization](#customization)
 - [Additional Software](#additional-software)
@@ -200,38 +195,8 @@ Shell scripts for automated macOS machine setup.
 
 # Setup
 
-## OS X (El Capitan)
-
-### Bootdisk
-
-0. Insert a USB drive (8GB or higher is best).
-0. Open Disk Utility and format the USB drive (leave the label as "Untitled").
-0. Download OS X El Capitan via the App Store but *DO NOT INSTALL*.
-0. Run this command to turn the USB drive into bootable image:
-
-        sudo "/Applications/Install OS X El Capitan.app/Contents/Resources/createinstallmedia" --volume /Volumes/Untitled --applicationpath "/Applications/Install OS X El Capitan.app" --nointeraction
-0. Exit the OS X El Capitan install.
-0. Eject the USB drive.
-
-### Upgrade
-
-0. Insert the USB bootdisk into the machine to be upgraded.
-0. Reboot the machine.
-0. Hold down the OPTION key while the machine is rebooting.
-0. Select the USB bootdisk from the menu.
-0. Format the machine using Disk Utility.
-0. Install the new OS.
-
-### Reinstall
-
-If you have already installed macOS but want to reinstall it, simply reboot the machine and hold
-down *COMMAND+R*. This will load the installer from the recovery partition and allow you to use Disk
-Utility, reinstall the system, etc.
-
-## Cloning
-
-Open a terminal window and execute one of the following setup sequences
-depending on your version preference:
+Open a terminal window and execute one of the following setup sequences depending on your version
+preference:
 
 Current Version (stable):
 
