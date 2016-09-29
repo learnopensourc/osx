@@ -22,6 +22,8 @@ while true; do
   if [[ $# == 0 ]]; then
     printf "\nUsage: run OPTION\n"
     printf "\nOSX Options:\n"
+    printf "  Boot:\n"
+    printf "    B:  Create boot disk.\n"
     printf "  Setup:\n"
     printf "    b:  Apply basic system settings.\n"
     printf "    t:  Install development tools.\n"

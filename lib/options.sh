@@ -8,6 +8,9 @@
 # $1 = The option to process.
 process_option() {
   case $1 in
+    'B')
+      scripts/boot.sh
+      break;;
     'b')
       scripts/basic.sh
       break;;
