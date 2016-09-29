@@ -103,9 +103,6 @@ install_dmg_app "$RESCUE_TIME_APP_URL" "RescueTime" "$RESCUE_TIME_APP_NAME"
 # Carbon Copy Cloner
 install_zip_app "$CARBON_COPY_CLONER_APP_URL" "$CARBON_COPY_CLONER_APP_NAME"
 
-# QuickLook - Plain Text
-install_zip_app "$QUICK_LOOK_PLAIN_TEXT_APP_URL" "$QUICK_LOOK_PLAIN_TEXT_APP_NAME"
-
 # QuickLook - Markdown
 install_zip_app "$QUICK_LOOK_MARKDOWN_APP_URL" "$QUICK_LOOK_MARKDOWN_APP_NAME"
 

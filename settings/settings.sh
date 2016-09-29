@@ -228,9 +228,6 @@ export RESCUE_TIME_APP_URL="https://www.rescuetime.com/installers/RescueTimeInst
 export CARBON_COPY_CLONER_APP_NAME="Carbon Copy Cloner.app"
 export CARBON_COPY_CLONER_APP_URL="https://bombich.scdn1.secure.raxcdn.com/software/files/ccc-4.1.10.4428.zip"
 
-export QUICK_LOOK_PLAIN_TEXT_APP_NAME="QLStephen.qlgenerator"
-export QUICK_LOOK_PLAIN_TEXT_APP_URL="https://github.com/downloads/whomwah/qlstephen/QLStephen.qlgenerator.zip"
-
 export QUICK_LOOK_MARKDOWN_APP_NAME="QLMarkdown.qlgenerator"
 export QUICK_LOOK_MARKDOWN_APP_URL="https://github.com/toland/qlmarkdown/releases/download/v1.3.5/QLMarkdown.qlgenerator.zip"
 

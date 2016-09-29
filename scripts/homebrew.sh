@@ -196,3 +196,6 @@ brew install terminal-notifier
 
 # Watchman
 brew install watchman
+
+# QuickLook - Plain Text
+brew cask install qlstephen
