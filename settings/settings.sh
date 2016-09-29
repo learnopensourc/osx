@@ -13,6 +13,10 @@ export SYSTEM_LABEL=Alchemist # Placeholder for system display name.
 export SYSTEM_NAME=alchemist # Placeholder for system name.
 export WORK_PATH=/tmp/downloads # Temporary location for processing of file downloads and installers.
 
+# Java
+export JAVA_VOLUME_NAME="JDK 8 Update 101"
+export JAVA_URL="http://download.oracle.com/otn-pub/java/jdk/8u101-b13/jdk-8u101-macosx-x64.dmg"
+
 # Ruby
 export MRI=2.3.1
 
