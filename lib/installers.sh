@@ -25,11 +25,16 @@ export -f unmount_image
 # Parameters:
 # $1 = The URL.
 # $2 = The file name.
+# $3 = The HTTP header.
 download_installer() {
+  local url="$1"
+  local file_name="$2"
+  local http_header="$3"
+
   printf "%s\n" "Downloading $1..."
   clean_work_path
   mkdir $WORK_PATH
-  curl --location --retry 3 --retry-delay 5 --fail --silent --show-error "$1" >> "$WORK_PATH/$2"
+  curl --header "$http_header" --location --retry 3 --retry-delay 5 --fail --silent --show-error "$url" >> "$WORK_PATH/$file_name"
 }
 export -f download_installer
 
