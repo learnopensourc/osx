@@ -22,23 +22,8 @@ brew link --force openssl
 brew tap raggi/ale
 brew install openssl-osx-ca
 
-# GDBM
-brew install gdbm
-
-# libffi
-brew install libffi
-
-# libyaml
-brew install libyaml
-
-# GPG
-brew install gpg
-
-# GPG Agent
-brew install gpg-agent
-
-# Keybase
-brew install keybase
+# asciinema
+brew install asciinema
 
 # Bash
 brew install bash
@@ -46,108 +31,137 @@ brew install bash
 # Bash Completion
 brew install bash-completion
 
-# direnv
-brew install direnv
+# chruby
+brew install chruby
 
-# Vim
-brew install vim
-
-# asciinema
-brew install asciinema
-
-# ShellCheck
-brew install shellcheck
+# cloc
+brew install cloc
 
 # Colorized Cat
 brew install ccat
 
-# tmux
-brew install tmux
-brew install reattach-to-user-namespace
-
-# Mosh
-brew install mobile-shell
-
-# Z
-brew install z
-
-# Tree
-brew install tree
-
-# hr
-brew install hr
-
-# Git
-brew install git
+# CTags
+brew install ctags
 
 # Diff So Fancy
 brew install diff-so-fancy
 
-# Mercurial
-brew install hg
+# direnv
+brew install direnv
 
-# CTags
-brew install ctags
-
-# Tag
-brew install tag
-
-# Parallel
-brew install parallel
-
-# Pigz
-brew install pigz
-
-# JSON CLI Parser
-brew install jq
-
-# The Silver Searcher
-brew install the_silver_searcher
-
-# Htop
-brew install htop
-
-# Pipe Viewer
-brew install pv
-
-# HTTPie
-brew install httpie
-
-# Ioping
-brew install ioping
-
-# Network Grep
-brew install ngrep
-
-# Namebench
-brew install namebench
-
-# ImageMagick
-brew install imagemagick
-
-# Graphviz
-brew install graphviz
-
-# FLAC
-brew install flac
-
-# FFmpeg
-brew install ffmpeg
-
-# Gifsicle
-brew install gifsicle
-
-# Node
-brew install node
+# Elasticsearch
+brew install elasticsearch
 
 # Elm
 brew install elm
 
+# FFmpeg
+brew install ffmpeg
+
+# FLAC
+brew install flac
+
+# FZF
+brew install fzf
+
+# GDBM
+brew install gdbm
+
+# Gifsicle
+brew install gifsicle
+
+# Git
+brew install git
+
+# Go
+brew install go
+
+# GPG
+brew install gpg
+
+# GPG Agent
+brew install gpg-agent
+
+# Graphviz
+brew install graphviz
+
+# hr
+brew install hr
+
+# Htop
+brew install htop
+
+# HTTPie
+brew install httpie
+
+# ImageMagick
+brew install imagemagick
+
+# Ioping
+brew install ioping
+
+# JSON CLI Parser
+brew install jq
+
+# Keybase
+brew install keybase
+
+# libffi
+brew install libffi
+
+# libyaml
+brew install libyaml
+
+# lnav
+brew install lnav
+
+# Memcached
+brew install memcached
+
+# Mercurial
+brew install hg
+
+# Mosh
+brew install mobile-shell
+
+# Namebench
+brew install namebench
+
+# Network Grep
+brew install ngrep
+
+# Nginx
+brew install nginx
+
+# Node
+brew install node
+
+# Parallel
+brew install parallel
+
+# Peco
+brew install peco
+
+# pgcli
+brew install pgcli
+
 # Phantom.js
 brew install phantomjs
 
-# chruby
-brew install chruby
+# Pigz
+brew install pigz
+
+# Pipe Viewer
+brew install pv
+
+# PostgreSQL
+brew install postgresql
+
+# QuickLook - Plain Text
+brew cask install qlstephen
+
+# Redis
+brew install redis
 
 # Ruby Install
 brew install ruby-install
@@ -155,47 +169,33 @@ brew install ruby-install
 # Rust
 brew install rust
 
-# Go
-brew install go
+# ShellCheck
+brew install shellcheck
 
-# FZF
-brew install fzf
-
-# Peco
-brew install peco
-
-# Nginx
-brew install nginx
-
-# Memcached
-brew install memcached
-
-# Redis
-brew install redis
-
-# PostgreSQL
-brew install postgresql
-
-# Elasticsearch
-brew install elasticsearch
-
-# pgcli
-brew install pgcli
-
-# Wry
-brew install wry
-
-# lnav
-brew install lnav
-
-# cloc
-brew install cloc
+# Tag
+brew install tag
 
 # Terminal Notifier
 brew install terminal-notifier
 
+# The Silver Searcher
+brew install the_silver_searcher
+
+# tmux
+brew install tmux
+brew install reattach-to-user-namespace
+
+# Tree
+brew install tree
+
+# Vim
+brew install vim
+
 # Watchman
 brew install watchman
 
-# QuickLook - Plain Text
-brew cask install qlstephen
+# Wry
+brew install wry
+
+# Z
+brew install z
