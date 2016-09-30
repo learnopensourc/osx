@@ -53,6 +53,26 @@ download_only() {
 }
 export -f download_only
 
+# Installs a single file.
+# Parameters:
+# $1 = The URL.
+# $2 = The install path.
+install_file() {
+  local file_url="$1"
+  local file_name=$(get_file_name "$1")
+  local install_path="$2"
+
+  if [[ ! -e "$install_path" ]]; then
+    printf "Installing: $install_path...\n"
+    download_installer "$file_url" "$file_name"
+    mkdir -p $(dirname "$install_path")
+    mv "$WORK_PATH/$file_name" "$install_path"
+    printf "Installed: $file_name.\n"
+    verify_path "$install_path"
+  fi
+}
+export -f install_file
+
 # Installs an application.
 # Parameters:
 # $1 = The application source path.
@@ -88,6 +108,26 @@ install_pkg() {
   sudo installer -pkg "$package" -target /
 }
 export -f install_pkg
+
+# Installs Java.
+# Parameters:
+# $1 = The URL.
+# $2 = The volume name.
+install_java() {
+  local url="$1"
+  local volume_path="/Volumes/$2"
+  local app_name="java"
+  local install_path="/usr/bin/$app_name"
+  local download_file="download.dmg"
+
+  download_installer "$url" "$download_file" "Cookie: oraclelicense=accept-securebackup-cookie"
+  mount_image "$WORK_PATH/$download_file"
+  local package=$(sudo find "$volume_path" -maxdepth 1 -type f -name "*.pkg")
+  sudo installer -pkg "$package" -target /
+  unmount_image "$volume_path"
+  printf "Installed: $app_name.\n"
+}
+export -f install_java
 
 # Installs an application via a DMG file.
 # Parameters:
@@ -133,26 +173,6 @@ install_dmg_pkg() {
   fi
 }
 export -f install_dmg_pkg
-
-# Installs Java.
-# Parameters:
-# $1 = The URL.
-# $2 = The volume name.
-install_java() {
-  local url="$1"
-  local volume_path="/Volumes/$2"
-  local app_name="java"
-  local install_path="/usr/bin/$app_name"
-  local download_file="download.dmg"
-
-  download_installer "$url" "$download_file" "Cookie: oraclelicense=accept-securebackup-cookie"
-  mount_image "$WORK_PATH/$download_file"
-  local package=$(sudo find "$volume_path" -maxdepth 1 -type f -name "*.pkg")
-  sudo installer -pkg "$package" -target /
-  unmount_image "$volume_path"
-  printf "Installed: $app_name.\n"
-}
-export -f install_java
 
 # Installs an application via a zip file.
 # Parameters:
@@ -279,23 +299,3 @@ install_git_project() {
   rm -rf "$project_dir"
 }
 export -f install_git_project
-
-# Installs a single file.
-# Parameters:
-# $1 = The URL.
-# $2 = The install path.
-install_file() {
-  local file_url="$1"
-  local file_name=$(get_file_name "$1")
-  local install_path="$2"
-
-  if [[ ! -e "$install_path" ]]; then
-    printf "Installing: $install_path...\n"
-    download_installer "$file_url" "$file_name"
-    mkdir -p $(dirname "$install_path")
-    mv "$WORK_PATH/$file_name" "$install_path"
-    printf "Installed: $file_name.\n"
-    verify_path "$install_path"
-  fi
-}
-export -f install_file
