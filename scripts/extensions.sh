@@ -135,9 +135,6 @@ install_git_app "$SCSS_LINT_EXTENSION_URL" "$SCSS_LINT_EXTENSION_PATH"
 # Sublime Text - CSScomb
 install_git_app "$CSSCOMB_EXTENSION_URL" "$CSSCOMB_EXTENSION_PATH"
 
-# Sublime Text - Coffee Script
-install_git_app "$COFFEE_SCRIPT_EXTENSION_URL" "$COFFEE_SCRIPT_EXTENSION_PATH"
-
 # Sublime Text - HTML Prettify
 install_git_app "$HTML_PRETTIFY_EXTENSION_URL" "$HTML_PRETTIFY_EXTENSION_PATH"
 
