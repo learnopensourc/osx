@@ -21,7 +21,7 @@ export JAVA_URL="http://download.oracle.com/otn-pub/java/jdk/8u101-b13/jdk-8u101
 export MRI=2.3.1
 
 # Repositories
-export REPO_RUBY_SETUP=v4.0.0
+export REPO_RUBY_SETUP=v5.0.0
 export REPO_GO_SETUP=v0.3.0
 export REPO_NPM_SETUP=v0.9.0
 export REPO_SUBLIME_TEXT_SETUP=v4.0.0
