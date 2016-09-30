@@ -34,9 +34,6 @@ install_git_project "https://github.com/bkuhlmann/go_setup.git" $REPO_GO_SETUP "
 # NPM
 install_git_project "https://github.com/bkuhlmann/npm_setup.git" $REPO_NPM_SETUP "npm_setup" "./run.sh i"
 
-# Pow
-curl get.pow.cx | sh
-
 # Sublime Text Setup
 if [ ! -e "/usr/bin/sublime" ]; then
   sudo ln -sv "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime

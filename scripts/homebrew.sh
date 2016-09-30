@@ -157,6 +157,9 @@ brew install pv
 # PostgreSQL
 brew install postgresql
 
+# Pow
+brew install pow
+
 # QuickLook - Plain Text
 brew cask install qlstephen
 
