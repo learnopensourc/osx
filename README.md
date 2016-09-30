@@ -38,150 +38,153 @@ Shell scripts for automated macOS machine setup.
     - [Readline](http://tiswww.case.edu/php/chet/readline/rltop.html)
     - [OpenSSL](https://openssl.org)
     - [OpenSSL OSX CA](https://github.com/raggi/openssl-osx-ca)
-    - [GDBM](http://www.gnu.org.ua/software/gdbm)
-    - [libffi](https://sourceware.org/libffi)
-    - [libyaml](http://pyyaml.org/wiki/LibYAML)
-    - [GPG](https://www.gnupg.org)
-    - [GPG Agent](https://www.gnupg.org)
+    - [asciinema](https://asciinema.org)
     - [Bash](https://www.gnu.org/software/bash)
     - [Bash Completion](http://bash-completion.alioth.debian.org)
-    - [direnv](http://direnv.net)
-    - [Vim](http://www.vim.org)
-    - [asciinema](https://asciinema.org)
-    - [ShellCheck](https://github.com/koalaman/shellcheck)
-    - [Colorized Cat](https://github.com/jingweno/ccat)
-    - [tmux](http://tmux.sourceforge.net)
-    - [Mosh](http://mosh.mit.edu)
-    - [Reattach to User Namespace](https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard)
-    - [Z](https://github.com/rupa/z)
-    - [Tree](http://mama.indstate.edu/users/ice/tree)
-    - [hr](https://github.com/LuRsT/hr)
-    - [Git](http://git-scm.com)
-    - [Mecurial](http://mercurial.selenic.com)
-    - [CTags](http://ctags.sourceforge.net)
-    - [Tag](https://github.com/jdberry/tag)
-    - [Parallel](https://savannah.gnu.org/projects/parallel)
-    - [Pigz](http://www.zlib.net/pigz)
-    - [jq](http://stedolan.github.com/jq)
-    - [The Silver Surfer](https://github.com/ggreer/the_silver_searcher)
-    - [htop](http://hisham.hm/htop)
-    - [Pipe Viewer](http://www.ivarch.com/programs/pv.shtml)
-    - [HTTPie](https://github.com/jkbrzt/httpie)
-    - [Ioping](https://code.google.com/p/ioping)
-    - [Network Grep](http://ngrep.sourceforge.net)
-    - [Namebench](https://code.google.com/p/namebench)
-    - [ImageMagick](http://www.imagemagick.org)
-    - [Graphviz](http://www.graphviz.org)
-    - [FLAC](https://www.xiph.org/flac)
-    - [FFmpeg](http://ffmpeg.org)
-    - [Gifsicle](http://www.lcdf.org/gifsicle)
-    - [Node.js](http://nodejs.org)
-    - [Elm](http://elm-lang.org)
-    - [Phantom.js](http://phantomjs.org)
     - [chruby](https://github.com/postmodern/chruby)
-    - [ruby-install](https://github.com/postmodern/ruby-install)
-    - [Ruby](http://www.ruby-lang.org)
-    - [Rust](https://www.rust-lang.org)
-    - [Go](http://golang.org)
-    - [FZF](https://github.com/junegunn/fzf)
-    - [Peco](https://github.com/peco/peco)
-    - [Nginx](http://wiki.nginx.org)
-    - [Pow](http://pow.cx)
-    - [Memcached](http://memcached.org)
-    - [Redis](http://redis.io)
-    - [PostgreSQL](http://www.postgresql.org)
-    - [Elasticsearch](https://www.elastic.co/products/elasticsearch)
-    - [pgcli](http://pgcli.com)
-    - [Wry](https://github.com/hoop33/wry)
-    - [lnav](http://braumeister.org/formula/lnav)
     - [cloc](http://cloc.sourceforge.net)
+    - [Colorized Cat](https://github.com/jingweno/ccat)
+    - [CTags](http://ctags.sourceforge.net)
+    - [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
+    - [direnv](http://direnv.net)
+    - [Elasticsearch](https://www.elastic.co/products/elasticsearch)
+    - [Elm](http://elm-lang.org)
+    - [FFmpeg](http://ffmpeg.org)
+    - [FLAC](https://www.xiph.org/flac)
+    - [FZF](https://github.com/junegunn/fzf)
+    - [GDBM](http://www.gnu.org.ua/software/gdbm)
+    - [Gifsicle](http://www.lcdf.org/gifsicle)
+    - [Git](http://git-scm.com)
+    - [Go](http://golang.org)
+    - [GPG](https://www.gnupg.org)
+    - [GPG Agent](https://www.gnupg.org)
+    - [Graphviz](http://www.graphviz.org)
+    - [hr](https://github.com/LuRsT/hr)
+    - [htop](http://hisham.hm/htop)
+    - [HTTPie](https://github.com/jkbrzt/httpie)
+    - [ImageMagick](http://www.imagemagick.org)
+    - [Ioping](https://code.google.com/p/ioping)
+    - [jq](http://stedolan.github.com/jq)
+    - [Keybase](https://keybase.io)
+    - [libffi](https://sourceware.org/libffi)
+    - [libyaml](http://pyyaml.org/wiki/LibYAML)
+    - [lnav](http://braumeister.org/formula/lnav)
+    - [Memcached](http://memcached.org)
+    - [Mecurial](http://mercurial.selenic.com)
+    - [Mosh](http://mosh.mit.edu)
+    - [Namebench](https://code.google.com/p/namebench)
+    - [Network Grep](http://ngrep.sourceforge.net)
+    - [Nginx](http://wiki.nginx.org)
+    - [Node.js](http://nodejs.org)
+    - [Parallel](https://savannah.gnu.org/projects/parallel)
+    - [Peco](https://github.com/peco/peco)
+    - [pgcli](http://pgcli.com)
+    - [Phantom.js](http://phantomjs.org)
+    - [Pigz](http://www.zlib.net/pigz)
+    - [Pipe Viewer](http://www.ivarch.com/programs/pv.shtml)
+    - [PostgreSQL](http://www.postgresql.org)
+    - [Pow](http://pow.cx)
+    - [QuickLook Plain Text](https://github.com/whomwah/qlstephen)
+    - [Redis](http://redis.io)
+    - [ruby-install](https://github.com/postmodern/ruby-install)
+    - [Rust](https://www.rust-lang.org)
+    - [Ruby](http://www.ruby-lang.org)
+    - [ShellCheck](https://github.com/koalaman/shellcheck)
+    - [Tag](https://github.com/jdberry/tag)
     - [Terminal Notifier](https://github.com/alloy/terminal-notifier)
+    - [The Silver Surfer](https://github.com/ggreer/the_silver_searcher)
+    - [tmux](http://tmux.sourceforge.net)
+    - [Reattach to User Namespace](https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard)
+    - [Tree](http://mama.indstate.edu/users/ice/tree)
+    - [Vim](http://www.vim.org)
     - [Watchman](https://github.com/facebook/watchman)
+    - [Wry](https://github.com/hoop33/wry)
+    - [Z](https://github.com/rupa/z)
 - Downloads, installs, and configures software applications generally not in the [App Store](http://www.apple.com/macosx/whats-new/app-store.html):
-    - [Dropbox](https://www.dropbox.com)
-    - [Knox](https://agilebits.com/knox)
-    - [iTerm2](http://www.iterm2.com)
-    - [Sublime Text 3](http://www.sublimetext.com)
-    - [Sublime Text URL Handler](https://github.com/asuth/subl-handler)
     - [Alfred](http://www.alfredapp.com)
-    - [TextExpander](http://www.smilesoftware.com/TextExpander)
-    - [Path Finder](http://cocoatech.com)
-    - [Tor Browser](https://www.torproject.org)
-    - [Google Chrome](http://www.google.com/chrome)
-    - [Firefox](http://www.mozilla.com/en-US/firefox)
-    - [Opera](http://www.opera.com)
-    - [Vivaldi](https://vivaldi.com)
-    - [OmniGraffle](http://www.omnigroup.com/applications/omnigraffle)
-    - [Transmit](https://panic.com/transmit)
-    - [iStat Menus](https://bjango.com/mac/istatmenus)
+    - [App Cleaner](http://www.freemacsoft.net/appcleaner)
     - [Bartender](http://www.macbartender.com)
-    - [DoubleTake](http://echoone.com/doubletake)
+    - [Carbon Copy Cloner](http://www.bombich.com)
+    - [Cheatsheet](http://www.cheatsheetapp.com/CheatSheet)
+    - [Google Chrome](http://www.google.com/chrome)
+    - [Cloak](https://www.getcloak.com)
+    - [Doxie](http://www.getdoxie.com)
+    - [Dropbox](https://www.dropbox.com)
+    - [Firefox](http://www.mozilla.com/en-US/firefox)
+    - [HandBrake](http://handbrake.fr)
+    - [Hazel](http://www.noodlesoft.com/hazel.php)
     - [ImageOptim](http://imageoptim.pornel.net)
-    - [VLC](http://www.videolan.org/vlc)
+    - [iStat Menus](https://bjango.com/mac/istatmenus)
+    - [iTerm2](http://www.iterm2.com)
+    - [Knox](https://agilebits.com/knox)
+    - [ksdiff](http://www.kaleidoscopeapp.com/ksdiff2)
+    - [Marp](https://yhatt.github.io/marp)
+    - [OmniGraffle](http://www.omnigroup.com/applications/omnigraffle)
+    - [OpenOffice](http://www.openoffice.org)
+    - [Opera](http://www.opera.com)
+    - [Path Finder](http://cocoatech.com)
+    - [Paw](https://paw.cloud)
     - [pgAdmin](http://www.pgadmin.org/index.php)
     - [PSequel](http://www.psequel.com)
-    - [Cheatsheet](http://www.cheatsheetapp.com/CheatSheet)
-    - [OpenOffice](http://www.openoffice.org)
-    - [Cloak](https://www.getcloak.com)
-    - [SurfEasy VPN](https://www.surfeasy.com)
-    - [VirtualBox](https://www.virtualbox.org)
-    - [Doxie](http://www.getdoxie.com)
-    - [Sonos](http://www.sonos.com)
-    - [App Cleaner](http://www.freemacsoft.net/appcleaner)
-    - [Hazel](http://www.noodlesoft.com/hazel.php)
-    - [Trailer](http://ptsochantaris.github.io/trailer)
+    - [QLMarkdown](https://github.com/toland/qlmarkdown)
     - [RescueTime](https://www.rescuetime.com)
-    - [Carbon Copy Cloner](http://www.bombich.com)
-    - [QuickLook Plain Text](https://github.com/whomwah/qlstephen)
-    - [ksdiff](http://www.kaleidoscopeapp.com/ksdiff2)
+    - [Sonos](http://www.sonos.com)
+    - [Sublime Text 3](http://www.sublimetext.com)
+    - [Sublime Text URL Handler](https://github.com/asuth/subl-handler)
+    - [SurfEasy VPN](https://www.surfeasy.com)
+    - [Tor Browser](https://www.torproject.org)
+    - [Trailer](http://ptsochantaris.github.io/trailer)
+    - [Transmit](https://panic.com/transmit)
+    - [Viscosity](https://www.sparklabs.com/viscosity)
+    - [Vivaldi](https://vivaldi.com)
+    - [VLC](http://www.videolan.org/vlc)
 - Downloads, installs, and configures software extensions:
-    - [Vim Pathogen](https://github.com/tpope/vim-pathogen)
-    - [Vim Fugitive](https://github.com/tpope/vim-fugitive)
-    - [Vim Unimpaired](https://github.com/tpope/vim-unimpaired)
-    - [Vim Commentary](https://github.com/tpope/vim-commentary)
-    - [Vim Git Gutter](https://github.com/airblade/vim-gitgutter)
+    - [Sublime Text 3 Advanced New File](https://github.com/skuroda/Sublime-AdvancedNewFile)
+    - [Sublime Text 3 Alignment](https://github.com/wbond/sublime_alignment)
+    - [Sublime Text 3 Apply Syntax](https://github.com/facelessuser/ApplySyntax)
+    - [Sublime Text 3 AutoFileName](https://github.com/BoundInCode/AutoFileName)
+    - [Sublime Text 3 Autoprefixer](https://github.com/sindresorhus/sublime-autoprefixer)
+    - [Sublime Text 3 Bracket Highlighter](https://github.com/facelessuser/BracketHighlighter)
+    - [Sublime Text 3 Change Quotes](https://github.com/colinta/SublimeChangeQuotes)
+    - [Sublime Text 3 Color Highlighter](https://github.com/Monnoroch/ColorHighlighter)
+    - [Sublime Text 3 CSScomb](https://github.com/csscomb/csscomb-for-sublime)
+    - [Sublime Text 3 CTags](https://github.com/SublimeText/CTags)
+    - [Sublime Text 3 DashDoc](https://github.com/farcaller/DashDoc)
+    - [Sublime Text 3 Easy Motion](https://github.com/tednaleid/sublime-EasyMotion)
+    - [Sublime Text 3 Elm](https://github.com/deadfoxygrandpa/Elm.tmLanguage)
+    - [Sublime Text 3 Emmet](http://emmet.io)
+    - [Sublime Text 3 Emmet LiveStyle](http://livestyle.emmet.io)
+    - [Sublime Text 3 Gist](https://github.com/condemil/Gist)
+    - [Sublime Text 3 Git Gutter](https://github.com/jisaacks/GitGutter)
+    - [Sublime Text 3 Gutter Color](https://github.com/ggordan/GutterColor)
+    - [Sublime Text 3 HTML Prettify](https://github.com/victorporof/Sublime-HTMLPrettify)
+    - [Sublime Text 3 JSCS Formatter](https://github.com/TheSavior/SublimeJSCSFormatter)
+    - [Sublime Text 3 JSCS Linter](https://github.com/SublimeLinter/SublimeLinter-jscs)
+    - [Sublime Text 3 Keymaps](https://github.com/MiroHibler/sublime-keymaps)
+    - [Sublime Text 3 Sublime Linter](https://github.com/SublimeLinter/SublimeLinter)
+    - [Sublime Text 3 Local History](https://github.com/vishr/local-history)
+    - [Sublime Text 3 Markdown Extended](https://github.com/jonschlinkert/sublime-markdown-extended)
+    - [Sublime Text 3 Move Tab](https://github.com/SublimeText/MoveTab)
+    - [Sublime Text 3 Rubocop](https://github.com/pderichs/sublime_rubocop)
+    - [Sublime Text 3 Ruby Extract Method](https://github.com/pashamur/ruby-extract-method)
+    - [Sublime Text 3 Ruby Slim](https://github.com/slim-template/ruby-slim.tmbundle)
+    - [Sublime Text 3 SCSS](https://github.com/MarioRicalde/SCSS.tmbundle/tree/SublimeText2)
+    - [Sublime Text 3 SCSS Lint](https://github.com/attenzione/SublimeLinter-scss-lint)
+    - [Sublime Text 3 Sidebar Enhancements](https://github.com/titoBouzout/SideBarEnhancements)
+    - [Sublime Text 3 Table Editor](https://github.com/vkocubinsky/SublimeTableEditor)
+    - [Sublime Text 3 Trailing Spaces](https://github.com/SublimeText/TrailingSpaces)
+    - [Sublime Text 3 Web Inspector](http://sokolovstas.github.com/SublimeWebInspector)
+    - [Sublime Text 3 Wrap+](https://github.com/ehuss/Sublime-Wrap-Plus)
     - [Vim Bundler](https://github.com/tpope/vim-bundler)
+    - [Vim Commentary](https://github.com/tpope/vim-commentary)
+    - [Vim Fugitive](https://github.com/tpope/vim-fugitive)
+    - [Vim Git Gutter](https://github.com/airblade/vim-gitgutter)
+    - [Vim Pathogen](https://github.com/tpope/vim-pathogen)
+    - [Vim Rails](https://github.com/tpope/vim-rails)
     - [Vim Ruby](https://github.com/vim-ruby/vim-ruby)
     - [Vim Text Object User](https://github.com/kana/vim-textobj-user)
     - [Vim Text Object Ruby Block](https://github.com/nelstrom/vim-textobj-rubyblock)
-    - [Vim Rails](https://github.com/tpope/vim-rails)
-    - [Sublime Text 3 Git Gutter](https://github.com/jisaacks/GitGutter)
-    - [Sublime Text 3 Gist](https://github.com/condemil/Gist)
-    - [Sublime Text 3 Keymaps](https://github.com/MiroHibler/sublime-keymaps)
-    - [Sublime Text 3 Local History](https://github.com/vishr/local-history)
-    - [Sublime Text 3 CTags](https://github.com/SublimeText/CTags)
-    - [Sublime Text 3 Sidebar Enhancements](https://github.com/titoBouzout/SideBarEnhancements)
-    - [Sublime Text 3 Advanced New File](https://github.com/skuroda/Sublime-AdvancedNewFile)
-    - [Sublime Text 3 Move Tab](https://github.com/SublimeText/MoveTab)
-    - [Sublime Text 3 Apply Syntax](https://github.com/facelessuser/ApplySyntax)
-    - [Sublime Text 3 Change Quotes](https://github.com/colinta/SublimeChangeQuotes)
-    - [Sublime Text 3 Bracket Highlighter](https://github.com/facelessuser/BracketHighlighter)
-    - [Sublime Text 3 Trailing Spaces](https://github.com/SublimeText/TrailingSpaces)
-    - [Sublime Text 3 Gutter Color](https://github.com/ggordan/GutterColor)
-    - [Sublime Text 3 Color Highlighter](https://github.com/Monnoroch/ColorHighlighter)
-    - [Sublime Text 3 Alignment](https://github.com/wbond/sublime_alignment)
-    - [Sublime Text 3 Wrap+](https://github.com/ehuss/Sublime-Wrap-Plus)
-    - [Sublime Text 3 AutoFileName](https://github.com/BoundInCode/AutoFileName)
-    - [Sublime Text 3 Autoprefixer](https://github.com/sindresorhus/sublime-autoprefixer)
-    - [Sublime Text 3 Easy Motion](https://github.com/tednaleid/sublime-EasyMotion)
-    - [Sublime Text 3 Emmet](http://emmet.io)
-    - [Sublime Text 3 Emmet LiveStyle](http://livestyle.emmet.io)
-    - [Sublime Text 3 Elm](https://github.com/deadfoxygrandpa/Elm.tmLanguage)
-    - [Sublime Text 3 Web Inspector](http://sokolovstas.github.com/SublimeWebInspector)
-    - [Sublime Text 3 Sublime Linter](https://github.com/SublimeLinter/SublimeLinter)
-    - [Sublime Text 3 JSCS Linter](https://github.com/SublimeLinter/SublimeLinter-jscs)
-    - [Sublime Text 3 JSCS Formatter](https://github.com/TheSavior/SublimeJSCSFormatter)
-    - [Sublime Text 3 Ruby Extract Method](https://github.com/pashamur/ruby-extract-method)
-    - [Sublime Text 3 Ruby Slim](https://github.com/slim-template/ruby-slim.tmbundle)
-    - [Sublime Text 3 Rubocop](https://github.com/pderichs/sublime_rubocop)
-    - [Sublime Text 3 Markdown Extended](https://github.com/jonschlinkert/sublime-markdown-extended)
-    - [Sublime Text 3 SCSS](https://github.com/MarioRicalde/SCSS.tmbundle/tree/SublimeText2)
-    - [Sublime Text 3 SCSS Lint](https://github.com/attenzione/SublimeLinter-scss-lint)
-    - [Sublime Text 3 CSScomb](https://github.com/csscomb/csscomb-for-sublime)
-    - [Sublime Text 3 Coffee Script](https://github.com/Xavura/CoffeeScript-Sublime-Plugin)
-    - [Sublime Text 3 HTML Prettify](https://github.com/victorporof/Sublime-HTMLPrettify)
-    - [Sublime Text 3 DashDoc](https://github.com/farcaller/DashDoc)
-    - [Sublime Text 3 Table Editor](https://github.com/vkocubinsky/SublimeTableEditor)
+    - [Vim Unimpaired](https://github.com/tpope/vim-unimpaired)
 
 # Screencast
 
@@ -200,13 +203,13 @@ preference:
 
 Current Version (stable):
 
-    git clone git://github.com/bkuhlmann/osx.git
+    git clone https://github.com/bkuhlmann/osx.git
     cd osx
-    git checkout v13.0.0
+    git checkout v14.0.0
 
 Master Version (unstable):
 
-    git clone git://github.com/bkuhlmann/osx.git
+    git clone https://github.com/bkuhlmann/osx.git
     cd osx
 
 # Usage
@@ -218,33 +221,36 @@ execute the following command:
 
 Running the run.sh script will present the following options:
 
-    Setup:
+    Boot:
+      B:  Create boot disk.
+    Install:
       b:  Apply basic system settings.
+      t:  Install development tools.
       h:  Install Homebrew software.
       a:  Install application software.
-      x:  Install application extensions.
+      x:  Install application software extensions.
       d:  Apply software defaults.
-      s:  Setup and configure installed software.
-      i:  Install everything (i.e. executes all options, listed above, top to bottom).
+      s:  Setup installed software.
+      i:  Install everything (i.e. executes all install options).
     Manage:
       c:  Check status of managed software.
       C:  Caffeinate machine.
       ua: Uninstall application software.
-      ux: Uninstall application extension.
+      ux: Uninstall application software extension.
       ra: Reinstall application software.
-      rx: Reinstall application extension.
+      rx: Reinstall application software extension.
       w:  Clean work (temp) directory.
       q:  Quit/Exit.
 
-Choose option 'i' to run all install tasks or select a specific option to run a single task. Each
-task is designed to be re-run if necessary. This can also be handy for performing upgrades, re-
+Choose option 'i' to run all install options or select a specific option to run a single task. Each
+option is designed to be re-run if necessary. This can also be handy for performing upgrades, re-
 running a missing/failed install, etc.
 
 The options prompt can be skipped by passing the desired option directly to the run.sh script. For
 example, executing "./run.sh i" will execute the complete software install process.
 
 It is recommended that the machine be rebooted after all install tasks have completed. Feel free to
-delete the osx project directory afterwards...or keep it around for future upgrades.
+delete the osx project directory afterwards or keep it around for future upgrades.
 
 ## Customization
 
@@ -263,7 +269,9 @@ applications/extensions.
 
 You can also modify the install scripts themselves by editing any of the following:
 
+- scripts/boot.sh = Creates macOS boot disk.
 - scripts/basic.sh = Applies basic system settings.
+- scripts/tools.sh = Installs macOS development tools required by Homebrew.
 - scripts/homebrew.sh = Installs Homebrew, command line, software.
 - scripts/applications.sh = Installs macOS, GUI-based, applications.
 - scripts/extensions.sh = Installs application extensions.
@@ -279,42 +287,42 @@ project.
 
 I also recommend installing the following software found via the [App Store](http://www.apple.com/macosx/whats-new/app-store.html):
 
-- [DaisyDisk](http://www.daisydiskapp.com)
-- [Keymo](http://manytricks.com/keymo)
-- [Moom](http://manytricks.com/moom)
 - [1Password](http://agilewebsolutions.com/products/1Password)
-- [Fantastical](http://flexibits.com/fantastical)
-- [Dash](http://kapeli.com/dash)
-- [PDFpenPro](http://www.smilesoftware.com/PDFpenPro/index.html)
-- [Marked 2](http://marked2app.com)
-- [OmniOutliner](http://www.omnigroup.com/applications/omnioutliner)
-- [OmniFocus](http://www.omnigroup.com/applications/omnifocus)
-- [Patterns](http://krillapps.com/patterns)
-- [ColorSnapper](http://colorsnapper.com)
-- [Gradient](http://www.gradientapp.com)
-- [xScope](http://iconfactory.com/software/xscope)
-- [Monosnap](https://www.monosnap.com)
 - [Acorn](https://secure.flyingmeat.com/acorn)
-- [Pixelmator](http://www.pixelmator.com)
-- [Sketch](http://bohemiancoding.com/sketch)
-- [Prepo](http://wearemothership.com/work/prepo)
-- [Name Mangler](http://manytricks.com/namemangler)
-- [Kaleidoscope](http://www.kaleidoscopeapp.com)
-- [Cocoa JSON Editor](http://www.cocoajsoneditor.com)
 - [AquaPath](https://itunes.apple.com/us/app/aquapath/id424425207)
-- [Medis](http://getmedis.com)
-- [Key Codes](https://manytricks.com/keycodes)
+- [CCMenu](http://ccmenu.org)
+- [Cocoa JSON Editor](http://www.cocoajsoneditor.com)
+- [ColorSnapper](http://colorsnapper.com)
+- [DaisyDisk](http://www.daisydiskapp.com)
+- [Dash](http://kapeli.com/dash)
 - [Day One](http://dayoneapp.com)
-- [Kindle](http://www.amazon.com/gp/feature.html?docId=1000464931)
+- [Fantastical](http://flexibits.com/fantastical)
+- [GarageBand](http://www.apple.com/ilife/garageband)
+- [Gradient](http://www.gradientapp.com)
 - [iMovie](http://www.apple.com/ilife/imovie)
 - [iPhoto](http://www.apple.com/ilife/iphoto)
-- [GarageBand](http://www.apple.com/ilife/garageband)
-- [CCMenu](http://ccmenu.org)
-- [WiFi Explorer](http://www.adriangranados.com/apps/wifi-explorer)
+- [Kaleidoscope](http://www.kaleidoscopeapp.com)
+- [Key Codes](https://manytricks.com/keycodes)
+- [Keymo](http://manytricks.com/keymo)
+- [Kindle](http://www.amazon.com/gp/feature.html?docId=1000464931)
 - [Leech](https://manytricks.com/leech)
+- [Marked 2](http://marked2app.com)
+- [Medis](http://getmedis.com)
 - [MoneyWell](http://nothirst.com/moneywell)
+- [Monosnap](https://www.monosnap.com)
+- [Moom](http://manytricks.com/moom)
+- [Name Mangler](http://manytricks.com/namemangler)
+- [OmniFocus](http://www.omnigroup.com/applications/omnifocus)
+- [OmniOutliner](http://www.omnigroup.com/applications/omnioutliner)
+- [Patterns](http://krillapps.com/patterns)
+- [PDFpenPro](http://www.smilesoftware.com/PDFpenPro/index.html)
+- [Pixelmator](http://www.pixelmator.com)
+- [Prepo](http://wearemothership.com/work/prepo)
+- [Sketch](http://bohemiancoding.com/sketch)
 - [Slack](https://slack.com)
 - [Tweetbot](http://tapbots.com/tweetbot/mac)
+- [WiFi Explorer](http://www.adriangranados.com/apps/wifi-explorer)
+- [xScope](http://iconfactory.com/software/xscope)
 
 ## Miscellaneous
 
@@ -336,12 +344,12 @@ the following configurations:
 
 - `/etc/newsyslog.d/alchemists.conf`
 
-      # logfilename                                            [owner:group]    mode   count   size  when  flags
-      /Users/bkuhlmann/Dropbox/Development/Work/**/log/*.log                    644    2       5120  *     GJN
+        # logfilename                                            [owner:group]    mode   count   size  when  flags
+        /Users/bkuhlmann/Dropbox/Development/Work/**/log/*.log                    644    2       5120  *     GJN
 - `/etc/newsyslog.d/homebrew.conf`
 
-      # logfilename                   [owner:group]    mode   count   size    when  flags
-      /usr/local/var/log/**/*.log                      644    2       5120    *     GJN
+        # logfilename                   [owner:group]    mode   count   size    when  flags
+        /usr/local/var/log/**/*.log                      644    2       5120    *     GJN
 
 These configurations ensure that logs are rotated every 5MB (5120KB). In order to test that these
 configurations are valid, run:
@@ -352,7 +360,7 @@ If you don't see any errors in the output, then your configuration settings are 
 
 The last thing to do is to add a launch configuration to ensure the log rotations happen at
 regularly scheduled intervals. To do this create the following file:
-`$HOME/Library/LaunchAgents/com.apple.newsyslog.plist`. It should have these contents:
+`$HOME/Library/LaunchAgents/com.apple.newsyslog.plist`. It should have the following content:
 
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">

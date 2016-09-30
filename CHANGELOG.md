@@ -1,3 +1,59 @@
+# v14.0.0 (2016-09-30)
+
+- Fixed Hazel app install.
+- Fixed application package install to use max depth.
+- Fixed disk image mounting to not automatically open dialogs.
+- Added Homebrew setup.
+- Added Java install support.
+- Added Paw application install.
+- Added [Keybase](https://keybase.io) Homebrew install.
+- Added [Marp](https://yhatt.github.io/marp) app install.
+- Added [Monosnap](https://www.monosnap.com) to README App Store list.
+- Added [QLMarkdown](https://github.com/toland/qlmarkdown) quick look install.
+- Added [Viscosity](https://www.sparklabs.com/viscosity) app install.
+- Added [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) Homebrew install.
+- Added automated boot disk creation support.
+- Added development tooling support.
+- Added development tooling to README.
+- Added newsyslog instructions to README.
+- Added optional HTTP header support for installer downloads.
+- Updated Cheat Sheet app install to always install latest version.
+- Updated Homebrew Git config setup.
+- Updated Homebrew install to be alpha-sorted.
+- Updated README to mention "macOS" instead of "OS X".
+- Updated application extension installs to use HTTPS protocol.
+- Updated iTerm app install to always install latest version.
+- Updated run script options help text.
+- Updated settings, applications, and extensions in alpha-sorted order.
+- Updated setup script to use HTTPS protocol.
+- Updated to Alfred 3.
+- Updated to AppCleaner 3.4.
+- Updated to Carbon Copy Cloner 4.1.10.4428.
+- Updated to Cloak 2.1.0.
+- Updated to Dotfiles 22.0.0.
+- Updated to Firefox 49.0.1.
+- Updated to Go Setup 1.0.0.
+- Updated to NPM Setup 1.0.0.
+- Updated to Opera 40.0.2308.75.
+- Updated to Ruby Setup 5.0.0.
+- Updated to Sublime Text 3, Build 3126.
+- Updated to Sublime Text Setup 4.1.0.
+- Updated to Tor Browser 6.0.5.
+- Updated to Trailer 1.5.0.
+- Updated to VLC 2.2.4.
+- Updated to Vivaldi 1.4.589.34.
+- Updated to iTerm 3.0.4.
+- Removed DoubleTake application.
+- Removed Ember and CloudApp from README App Store list.
+- Removed Paw from README App Store list.
+- Removed QuickLook - Plain Text app install (provided via Homebrew now).
+- Removed README requirements for Xcode CLI tools and Java JDK.
+- Removed Sublime Text CoffeeScript extension.
+- Removed TextExpander.
+- Removed VirtualBox install.
+- Removed macOS boot disk README information.
+- Refactored installers script function order.
+
 # v13.0.0 (2016-04-30)
 
 - Fixed machine caffeination.
