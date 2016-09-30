@@ -11,7 +11,7 @@ chsh -s /usr/local/bin/bash
 
 # Homebrew
 (
-  cd /usr/local
+  cd /usr/local/Homebrew
   git config --local core.hooksPath /dev/null
 )
 
