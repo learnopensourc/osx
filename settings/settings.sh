@@ -178,9 +178,6 @@ export ISTATS_APP_URL="http://download.bjango.com/istatmenus"
 export BARTENDER_APP_NAME="Bartender 2.app"
 export BARTENDER_APP_URL="http://www.macbartender.com/Demo/Bartender%202.zip"
 
-export DOUBLETAKE_APP_NAME=DoubleTake.app
-export DOUBLETAKE_APP_URL="http://echoone.com/doubletake/upgrade/DoubleTake.zip"
-
 export IMAGE_OPTIM_APP_NAME=ImageOptim.app
 export IMAGE_OPTIM_APP_URL="http://imageoptim.com/ImageOptim.tbz2"
 

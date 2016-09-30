@@ -55,9 +55,6 @@ install_zip_app "$ISTATS_APP_URL" "$ISTATS_APP_NAME"
 # Bartender
 install_zip_app "$BARTENDER_APP_URL" "$BARTENDER_APP_NAME"
 
-# DoubleTake
-install_zip_app "$DOUBLETAKE_APP_URL" "$DOUBLETAKE_APP_NAME"
-
 # ImageOptim
 install_tar_app "$IMAGE_OPTIM_APP_URL" "$IMAGE_OPTIM_APP_NAME" "-xjf"
 
